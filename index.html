@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="JavaScript Password Generator">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+ 
+  <script src="https://kit.fontawesome.com/7cc4dccfd1.js" crossorigin="anonymous"></script>
+
+  
+  <link rel="stylesheet" href="style.css">
+
+  <title>Password Generator</title>
+</head>
+
+<body>
+  
+  <div id="container">
+    <h2>Password Generator</h2>
+    <section id="result-container">
+      
+      <span id="result"></span>
+      <button class="btn" id="clipboard">
+        
+        <i class="fa-regular fa-clipboard" id="clipboard"></i>
+      </button>
+    </section>
+
+    
+    <section id="options">
+      <div class="option">
+        <label for="lowercase">Lowercase Letters</label>
+        <input type="checkbox" id="lowercase" checked>
+      </div>
+      <div class="option">
+        <label for="uppercase">Uppercase Letters</label>
+        <input type="checkbox" id="uppercase" checked>
+      </div>
+      <div class="option">
+        <label for="numbers">Numbers</label>
+        <input type="checkbox" id="numbers" checked>
+      </div>
+      <div class="option">
+        <label for="symbols">Symbols</label>
+        <input type="checkbox" id="symbols" checked>
+      </div>
+      <div class="option">
+        <label for="length">Length (min 10 - max 20)</label>
+        <input type="number" id="length" value="10" min="4" max="20">
+      </div>
+    </section>
+
+    <button class="btn" id="generate">Generate Password</button>
+    <div id="footer">
+     <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
+      <a href="https://github.com/Venator71?tab=repositories" target="_black" ><i class="fa-brands fa-github" id="github"></i></a>
+      <span id="name"><a href="https://venator71.github.io/Portfolio/" target="_blank"> B. John Hunter 2022</a></span>
+      <a href="https://www.facebook.com/profile.php?id=100078272476918" target="_blank" id="facebook"><i class="fa-brands fa-facebook"></i></a>
+      <a href="http://twitter.com/@jhunterwebdev" target="_blank" id="twitter"><i class="fa-brands fa-twitter-square"></i></a>
+    
+    
+    </div>
+  </div>
+
+  
+
+  <!-- Link to JS file -->
+  <script src="app.js"></script>
+</body>
+
+</html>

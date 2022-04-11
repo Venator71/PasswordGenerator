@@ -1,0 +1,138 @@
+
+* {
+ box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  opacity: .9;
+  color: #f0f0f0;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 25px;
+}
+
+h2 {
+  
+  margin: 10px 0 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn {
+  background-color: #777;
+  border:white solid 2px;
+  border-radius: 10px;
+  
+  
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  color: #fff;
+}
+
+#container {
+  background-color: #5e5b5b;
+  padding: 15px;
+  width: 350px;
+  border-radius: 5px;
+  border: #fff 2px solid;
+}
+
+#result-container {
+  border: #fff solid 2px;
+  border-radius: 10px;
+  background-color: #777;
+  height: 50px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  padding: 10px 5px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+#clipboard {
+  font-size: 20px;
+  border: none;
+  
+}
+
+#generate {
+  font-size: 16px;
+  width: 100%;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color:#777;
+
+}
+
+.btn:hover{
+  opacity: .50;
+  /* background-color: #fff; */
+  /* color:red; */
+  
+}
+
+#generate:hover {
+  font-size: 20px;
+}
+
+a {
+  color:#fff;
+  
+}
+a:hover {
+  font-size: 18px;
+  
+}
+i {
+  padding: 5px;
+}
+#github {
+  color: black;
+}
+#linkedin {
+  color: #0077b5;
+}
+#twitter {
+  color: #1da1f2;
+}
+
+#facebook {
+  color: #4267b2;
+}
+
+#name {
+  color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+}
+
+a:link {
+  color: black;
+}
+
+#clipboard:active {
+  color: black;
+  background-color: red;
+  border-radius: 50px;
+}
+
